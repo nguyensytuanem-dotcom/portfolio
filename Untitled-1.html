@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nguyễn Sỹ Tuấn Em</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+
+<section id="home" class="hero">
+    <p>CHÀO MỪNG ĐẾN VỚI PORTFOLIO CỦA TÔI</p>
+    <h1>NGUYỄN SỸ<br><span>TUẤN EM</span></h1>
+    <h3>Sinh viên Công nghệ thông tin</h3>
+    <p class="intro">
+        Tôi yêu thích lập trình, thiết kế website
+        và khám phá những công nghệ mới.
+    </p>
+    <a href="#about" class="button">Tìm hiểu về tôi</a>
+</section>
+
+<section id="about" class="section">
+    <h2>Giới thiệu bản thân</h2>
+    <div class="about-content">
+        <div class="avatar">NTE</div>
+        <div>
+            <h3>Xin chào! Tôi là Tuấn Em.</h3>
+            <p>
+                Tôi là sinh viên ngành Công nghệ thông tin.
+                Tôi đang học tập và rèn luyện kỹ năng lập trình,
+                thiết kế giao diện và phát triển website.
+            </p>
+            <p><b>Họ tên:</b> Nguyễn Sỹ Tuấn Em</p>
+            <p><b>Ngành học:</b> Công nghệ thông tin</p>
+            <p><b>Định hướng:</b> Web Developer</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section gray">
+    <h2>Kỹ năng của tôi</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Xây dựng cấu trúc website.</p>
+        </div>
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Thiết kế giao diện website.</p>
+        </div>
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Tạo chức năng tương tác.</p>
+        </div>
+        <div class="card">
+            <h3>C++</h3>
+            <p>Lập trình và giải thuật cơ bản.</p>
+        </div>
+        <div class="card">
+            <h3>PHP</h3>
+            <p>Lập trình phía máy chủ cơ bản.</p>
+        </div>
+        <div class="card">
+            <h3>MySQL</h3>
+            <p>Quản lý cơ sở dữ liệu.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Dự án của tôi</h2>
+    <div class="cards">
+        <div class="card project">
+            <h3> Portfolio cá nhân</h3>
+            <p>Website giới thiệu thông tin cá nhân.</p>
+            <span>HTML - CSS - JavaScript</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section gray">
+    <h2>Liên hệ với tôi</h2>
+    <p>Email:nguyensytuanem@gmail.com</p>
+    <p>Địa chỉ: Việt Nam</p>
+
+    <form id="contactForm">
+        <input type="text" id="name"
+            placeholder="Họ và tên" required>
+        <input type="email" id="email"
+            placeholder="Email của bạn" required>
+        <textarea id="message"
+            placeholder="Nội dung lời nhắn" required></textarea>
+        <button type="submit">Gửi liên hệ</button>
+    </form>
+    <p id="result"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
